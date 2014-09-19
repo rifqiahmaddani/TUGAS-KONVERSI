@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <conio.h>
+
+main()
+{
+float cel,far,rea;
+cel=0;
+printf("\n");
+printf("Konversi Suhu dari Celcius ke\nFahrenheit dan Reamur :""\n");
+printf("=======================""\n");
+printf("\n");
+printf("Masukkan Suhu dalam satuan Celcius :");
+scanf("%f",&cel);
+far=cel*1.8+32;
+rea=cel*0.8;
+printf("\n");
+printf("Hasil Konversi :""\n");
+printf("================""\n");
+printf("Fahrenheit");
+printf("\t%2.2f °F""\n",far);
+printf("Reamur");
+printf("\t\t%2.2f °R",rea);
+printf("\n");
+printf("\nKonversi Selesai");
+printf("\n\nDibuat oleh Rifqi Ahmad Dani");
+printf("\nNIM : 3143111078");
+getch();
+}
+
